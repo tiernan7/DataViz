@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+  <title>CSE512: Data Visualization</title>
+  <meta name="robots" content="index,follow" />
+  <link rel="stylesheet" type="text/css" href="fonts.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="jquery.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script>
+  var toggleReading = function() {
+    $(".reading").toggleClass('hidden');
+  }
+  </script>
+</head>
+
+<body>
+  <div class='content'>
+
+    <div class='title'>
+      <a href="index.html"><strong>CSE512</strong>
+         Data Visualization</a> (Spring 2022)
+    </div>
+    <br/>
+
+    <div class='sidebar'>
+      <div>
+        <a href="index.html">&lt;&lt; Back to home</a>
+      </div>
+      <br/>
+    </div>
+
+    <div class='article' data-spy="scroll" data-target=".navbar">
+      <h1>Assignment 1: Visualization Design</h1>
+
+      <p>In this assignment, you will design a visualization for a small data set and provide a rigorous rationale for your design choices. You should in theory be ready to explain the contribution of <em>every pixel</em> in the display. You are free to use any graphics or charting tool you please - including drafting it by hand.
+      </p>
+
+      <p>
+        (See <a href="resources.html">Resources</a> for a list of visualization tools.)
+      </p>
+
+      <h2>Data Set: Monthly Hours of Sunshine in Major U.S. Cities</h2>
+
+      <p>The climate of a place can have a tremendous impact on people's lived experience, ranging from personal moods to how an entire region defines itself. Here, you will examine a set of average monthly climate measurements for six major U.S. cities, roughly covering the edges of the continental United States.</p>
+
+      <p>For more information about the dataset, including download links for CSV and JSON formats, see <a href="https://observablehq.com/@uwdata/hours-of-sunshine">https://observablehq.com/@uwdata/hours-of-sunshine</a>.
+      </p>
+
+      <h2>Assignment</h2>
+
+      <p>Your task is to design a static (i.e., single image) visualization that you believe effectively communicates the data and provide a short write-up (no more than 4 paragraphs) describing your design. Start by choosing a question you'd like your visualization to answer. <strong>Design your visualization to answer that question, and use the question as the title of your graphic.</strong></p>
+
+      <p>While you must use the data set given, note that you are free to transform the data as you see fit. Such transforms may include (but are not limited to) log transformation, computing percentages or averages, grouping elements into new categories, or removing unnecessary variables or records. You are also free to incorporate external data. Your chart image should be interpretable without recourse to your short write-up. Do not forget to include title, axis labels, or legends as needed!</p>
+
+      <p>As different visualizations can emphasize different aspects of a data set, you should document what aspects of the data you are attempting to most effectively communicate. In short, what story are you trying to tell? Just as important, also note which aspects of the data might be obscured due to your visualization design.</p>
+
+      <p>In your write-up, you should provide a rigorous rationale for your design decisions. Document the visual encodings you used and why they are appropriate for the data and your specific question. These decisions include the choice of visualization type, size, color, scale, and other visual elements, as well as the use of sorting or other data transformations. How do these decisions facilitate effective communication?</p>
+
+      <h2>Grading</h2>
+
+      <p>The assignment score is out of a maximum of 10 points. Historically, the median score on this assignment has been 8.5, which corresponds to an A-. We will determine scores by judging both the soundness of your design and the quality of the write-up. We will also look for consideration of audience, message, and intended task. Here are examples of aspects that may lead to point deductions:</p>
+
+      <ul>
+        <li>Use of misleading, unnecessary, or unmotivated graphic elements.
+        <li>Missing chart title, axis labels, or data transformation description.
+        <li>Missing or incomplete design rationale in write-up.
+        <li>Ineffective encodings for your stated goal (e.g., distracting colors, improper data transformation).
+      </ul>
+
+      <p>We will reward entries that go above and beyond the assignment requirements to produce effective graphics. Examples may include outstanding visual design, meaningful incorporation of external data to reveal important trends, demonstrating exceptional creativity, or effective annotations and other narrative devices.</p>
+
+      <h2>Submission Details</h2>
+
+      <p>This is an individual assignment. You may <b>not</b> work in groups. Your completed assignment is due on <b>Wed 4/6, by 11:59pm</b>. We will be discussing submissions in class, <em>so be sure to avoid a late submission</em>.</p>
+
+      <p>You must submit your assignment using <a href="https://canvas.uw.edu/courses/1545332/assignments/7234839">Canvas</a>. Please upload a single zip file named using the pattern "uwnetid_a1.zip" (replacing "uwnetid" with your UW network login - this is the same as your @uw email address, <em>not</em> a numeric id number). The zip archive should contain two files: a plain text file named "readme.txt" and a PNG or JPG image file of your visualization design.</p>
+
+      <p>Please use the correct file extension for your image (either .png or .jpg) and be sure your image is sized for a reasonable viewing experience. Viewers should not have to zoom or scroll in order to effectively view your submission!</p>
+
+      <p>The readme.txt file should contain your write-up, as described above. Please be sure to include your name and UW net id in your readme.</p>
+
+      <p>If you are on the waiting list for the class do not have access to the Canvas site, please email your submission to us at <em>cse442@cs.washington.edu</em>.</p>
+
+      <div class='footer'>
+        <a href='http://cs.washington.edu'>Computer Science &amp; Engineering</a> -
+        <a href='http://www.washington.edu'>University of Washington</a>
+      </div>
+    </div>
+    <br/>
+    <br/>
+
+
+  </div>
+</body>
+
+</html>
