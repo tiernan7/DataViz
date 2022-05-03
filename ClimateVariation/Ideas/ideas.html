@@ -30,5 +30,18 @@
 
 
                 <p> Following along this same line of developing a visual aid for vacationers making travel plans, I could also restrict it to travelers ~from~ a specific city. For example, I know many grad students who are looking to travel when seattle is in its cloudy season. A useful tool could plot the cities each moneth that are more likely to be sunny than seattle, with y values based on how much more sunny</p>
+
+                <h2>Concise goal</h2>
+                <p>Where should I vacation to escape the Seattle weather?</p>
+                <h2>Plot elements</h2>
+                    <li>Month&rarr;X</li>
+                    <li>City, not including Seattle&rarr;Y</li>
+                    <li>Average P(Sunny in city Y during onth X, Not Sunny in Seattle on a day in month ) accross month. &rarr;Circle Position</li>
+                    <li>Thermal intensity relative to Seattle&rarr;Circle Area<\li>
+                <h2>Justification</h2>
+                    <li> I considered using a different metric for the Y-axis such as the the number of sunny days in city X minus the number of sunny days in seattle per month. I also considred plotting, for month in the year<\li>
+                    
+                    <li>Because the hours of sunlight havr been binned monthly, the probabilities of a sunny day are really average probabilities across the month and might lose any predictive power there are sharp variations in sunlight distrobution across a particular month. However this is not possible with data averaged over a small period, and as such this graphic should work as only a starting point for chosing a city to visit in a given time, or finding a time to go to a particular city.</li>
+                    <li>The solar radiation data is based on a typical meteorological year, and reported in half hour intervals.</li>
     </body>
 </html>
